@@ -44,6 +44,45 @@ const projects = [
         demoLink: 'https://djangoapp4.herokuapp.com/',
         sourceLink: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY',
     },
+    {
+        title: 'Veg community',
+        description: 'The database used for this project was PostgreSQL with Elephant SQL supported by AWS services Cloudinary to save the statics and using bootstrap to keep it responsive. It was built using the DJANGO framework in Python, where you can get a user, have weekly control over your meals, organize your plan, and get it on any device just using a browser. ',
+        imageUrl: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY/raw/main/readme/doc/responsive.png',
+        technologies: [
+            'Python 48.0%  ',
+            'HTML 45.3%  ',
+            'Dockerfile 3.5%  ',
+            'CSS 3.0%  ',
+            'Other 0.2%  '],
+        demoLink: 'https://djangoapp4.herokuapp.com/',
+        sourceLink: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY',
+    },
+    {
+        title: 'Veg community',
+        description: 'The database used for this project was PostgreSQL with Elephant SQL supported by AWS services Cloudinary to save the statics and using bootstrap to keep it responsive. It was built using the DJANGO framework in Python, where you can get a user, have weekly control over your meals, organize your plan, and get it on any device just using a browser. ',
+        imageUrl: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY/raw/main/readme/doc/responsive.png',
+        technologies: [
+            'Python 48.0%  ',
+            'HTML 45.3%  ',
+            'Dockerfile 3.5%  ',
+            'CSS 3.0%  ',
+            'Other 0.2%  '],
+        demoLink: 'https://djangoapp4.herokuapp.com/',
+        sourceLink: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY',
+    },
+    {
+        title: 'Veg community',
+        description: 'The database used for this project was PostgreSQL with Elephant SQL supported by AWS services Cloudinary to save the statics and using bootstrap to keep it responsive. It was built using the DJANGO framework in Python, where you can get a user, have weekly control over your meals, organize your plan, and get it on any device just using a browser. ',
+        imageUrl: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY/raw/main/readme/doc/responsive.png',
+        technologies: [
+            'Python 48.0%  ',
+            'HTML 45.3%  ',
+            'Dockerfile 3.5%  ',
+            'CSS 3.0%  ',
+            'Other 0.2%  '],
+        demoLink: 'https://djangoapp4.herokuapp.com/',
+        sourceLink: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY',
+    },
 ];
 
 export default projects;
