@@ -45,8 +45,8 @@ const Portafolio = () => {
         ))}
       </div>
       <hr className='hrFooter1'/>
-      <hr className='hrFooter2'/>
-      <hr className='hrFooter3'/>
+      {/* <hr className='hrFooter2'/> */}
+      {/* <hr className='hrFooter3'/> */}
 
       <Footer/>
     </div>
