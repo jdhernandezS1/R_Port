@@ -33,6 +33,11 @@ const Portafolio = () => {
       <h1 className='MainTitle'>
         Wellcome To David's Portfolio
       </h1>
+      <div className='ProfPicContainer'>
+        <picture>
+          <img className='ProfilePic' src="https://avatars.githubusercontent.com/u/48605281?v=4" alt="David Profile foto" />
+        </picture>
+      </div>
       <div className="projects-container">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
