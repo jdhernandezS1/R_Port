@@ -84,19 +84,35 @@
 .project-links:hover {
   transform: scale(1.1);
 }
+.hrFooter1{
+  width: 75%;
+  text-align: center;
+}
+.hrFooter2{
+  width: 50%;
+  text-align: center;
+}
+.hrFooter3{
+  width: 30%;
+  text-align: center;
+}
 .footer{
   width: 100%;
   text-align: center;
 }
 .social-media{
-  font-size: xx-large;
+  font-size: x-large;
+  margin-bottom: 20px;
+
 }
 .social-media a{
   text-decoration: none;
-  color: #6581ff;
+  color: #ff6565;
 }
 .social-media a:hover{
-  font-size: x-large
+  font-size: xx-large;
+  color: #65ff98;
+
 }
 @media (max-width: 1060px) {
   .ProfPicContainer {
