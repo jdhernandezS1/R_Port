@@ -1,6 +1,7 @@
 import React from 'react';
 import "./style/Project.css"
 import projects from "./Content"
+import Footer from './footer';
 
 
 
@@ -43,6 +44,7 @@ const Portafolio = () => {
           <ProjectCard key={index} project={project} />
         ))}
       </div>
+      <Footer/>
     </div>
   );
 };

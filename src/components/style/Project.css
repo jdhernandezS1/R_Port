@@ -65,15 +65,14 @@
   border-radius: 4px
 }
 
-a {
+.project-links a {
   text-decoration: none;
-  transition: transform .2s;
-  color: #6581ff
+  color: #6581ff;
+  font-size:medium;
 }
 
-a:hover {
-  border: solid #d6d6d6 1px;
-  border-radius: 10%;
+.project-links a:hover {
+  font-size: x-large;
 }
 
 .project-links {
@@ -85,7 +84,20 @@ a:hover {
 .project-links:hover {
   transform: scale(1.1);
 }
-
+.footer{
+  width: 100%;
+  text-align: center;
+}
+.social-media{
+  font-size: xx-large;
+}
+.social-media a{
+  text-decoration: none;
+  color: #6581ff;
+}
+.social-media a:hover{
+  font-size: x-large
+}
 @media (max-width: 1060px) {
   .ProfPicContainer {
     text-align: center;
