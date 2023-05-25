@@ -1,9 +1,6 @@
 import React from 'react';
 import "../../style/Project.css"
 import projects from "./Content"
-import Footer from '../../footer';
-
-
 
 const ProjectCard = ({ project }) => {
   return (
@@ -44,9 +41,6 @@ const Portafolio = () => {
           <ProjectCard key={index} project={project} />
         ))}
       </div>
-      <hr className='hrFooter1' />
-      {/* <hr className='hrFooter2'/> */}
-      {/* <hr className='hrFooter3'/> */}
 
     </div>
   );

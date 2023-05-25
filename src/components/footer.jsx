@@ -5,14 +5,15 @@ import "./style/Project.css"
 const Footer = () => {
   return (
     <footer className="footer">
+      <hr className='hrFooter1' />
       <div className="container">
         <p className='FooterLabel'>&copy; {new Date().getFullYear()} David's Portfolio. All rights reserved.</p>
         <div className="social-media">
           <a href="https://www.linkedin.com/in/9david-hernandez7/" target="_blank" rel="noopener noreferrer">
-            <IoLogoLinkedin/>
+            <IoLogoLinkedin />
           </a>
           <a href="https://github.com/jdhernandezS1" target="_blank" rel="noopener noreferrer">
-            <IoLogoGithub/>
+            <IoLogoGithub />
           </a>
         </div>
       </div>
