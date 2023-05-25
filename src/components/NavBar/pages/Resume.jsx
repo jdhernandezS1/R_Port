@@ -6,7 +6,9 @@ const Resume = () => {
   let Content = styles.content;
   let list = styles.list;
   let Icon = styles.icon;
+  let col1 = styles.contentCol1;
   let col2 = styles.contentCol2;
+
 
   return (
     < >
@@ -20,7 +22,7 @@ const Resume = () => {
         </picture>
       </div>
       <div className={Content}>
-        <div>
+        <div className={col1}>
 
 
           <h2>Personal Information</h2>

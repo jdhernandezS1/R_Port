@@ -3,6 +3,7 @@ import styles from "../../style/content.module.css";
 const Home = () => {
   let Content = styles.content;
   let col2 = styles.contentCol2;
+  let col1 = styles.contentCol1;
 
   return (
     <>
@@ -16,7 +17,7 @@ const Home = () => {
       </div>
       <div className={Content}>
 
-        <div>
+      <div className={col1}>
           <h1>Software Skills</h1>
           <ul>
             <li>
