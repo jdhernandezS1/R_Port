@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; {new Date().getFullYear()} David's Portfolio. All rights reserved.</p>
+        <p className='FooterLabel'>&copy; {new Date().getFullYear()} David's Portfolio. All rights reserved.</p>
         <div className="social-media">
           <a href="https://www.linkedin.com/in/9david-hernandez7/" target="_blank" rel="noopener noreferrer">
             <IoLogoLinkedin/>

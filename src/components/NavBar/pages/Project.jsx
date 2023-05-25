@@ -1,7 +1,7 @@
 import React from 'react';
-import "./style/Project.css"
+import "../../style/Project.css"
 import projects from "./Content"
-import Footer from './footer';
+import Footer from '../../footer';
 
 
 
@@ -32,7 +32,7 @@ const Portafolio = () => {
   return (
     <div className="Portafolio">
       <h1 className='MainTitle'>
-        Wellcome To David's Portfolio
+        Projects
       </h1>
       <div className='ProfPicContainer'>
         <picture>
@@ -44,11 +44,10 @@ const Portafolio = () => {
           <ProjectCard key={index} project={project} />
         ))}
       </div>
-      <hr className='hrFooter1'/>
+      <hr className='hrFooter1' />
       {/* <hr className='hrFooter2'/> */}
       {/* <hr className='hrFooter3'/> */}
 
-      <Footer/>
     </div>
   );
 };

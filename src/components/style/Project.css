@@ -15,7 +15,7 @@
   text-align: center;
   position: absolute;
   top: 10px;
-  left: 5%;
+  right: 5%;
   opacity: 0.5;
 
 }
@@ -47,13 +47,13 @@
   align-items: center;
   padding: 20px;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px #0000001a;
   transition: all 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #0000001a;
   transform: scale(1.1);
 
 }
@@ -98,6 +98,9 @@
 .footer{
   width: 100%;
   text-align: center;
+}
+.FooterLabel{
+  color: wheat;
 }
 .social-media{
   font-size: x-large;
