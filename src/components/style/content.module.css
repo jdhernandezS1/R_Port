@@ -1,0 +1,22 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+}
+.content a{
+    text-decoration: none;
+    color: #53ff53;
+}
+.contentCol2{
+    width: 600px;
+    text-align: justify;
+
+}
+.list{
+    font-size: x-large;
+    list-style-type: none;
+}
+.icon{
+    color: #53ff53;
+    font-size: xx-large;
+}
