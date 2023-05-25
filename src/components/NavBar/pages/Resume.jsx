@@ -52,7 +52,7 @@ const Resume = () => {
             <h3>Code institute</h3>
             <p>Full Stack Software Developer </p>
             <a
-              href="https://www.credential.net/7baa32c1-921d-4399-8881-dec2a782d485#gs.v65mt7">Credential</a>
+              href="https://www.credential.net/7baa32c1-921d-4399-8881-dec2a782d485#gs.v65mt7" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
           <div data-dates="08/2021 - 02/2022">
             <h3>City Language School</h3>
@@ -61,19 +61,19 @@ const Resume = () => {
           <div data-dates="2020">
             <h3>Coursera</h3>
             <p> Programming Foundations with JavaScript, HTML and CSS</p>
-            <a href="https://coursera.org/share/387155c21018c6e0a257a1e1b3e66b4f">Credential</a>
+            <a href="https://coursera.org/share/387155c21018c6e0a257a1e1b3e66b4f" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
           <div data-dates="2020">
             <h3>Coursera</h3>
             <p> Introduction to self-driving cars</p>
             <a
-              href="https://www.coursera.org/account/accomplishments/certificate/A6RQTWZJGP3S">Credential</a>
+              href="https://www.coursera.org/account/accomplishments/certificate/A6RQTWZJGP3S" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
 
           <div data-dates="02/2015- 08/2020">
             <h3>Universidad Del Quindio (High Quality certification)</h3>
             <p>Electronic Engineer</p>
-            <a href="https://wallet.xertify.co/certificates/FFF45B0AA001">Credential</a>
+            <a href="https://wallet.xertify.co/certificates/FFF45B0AA001" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
           <div data-dates="2007 - 2012">
             <h3>Zakurayima</h3>
