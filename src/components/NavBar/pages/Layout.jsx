@@ -15,9 +15,9 @@ const Layout = () => {
           <li>
             <Link to="/R_Port/portafolio">Projects</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/R_Port/contact">Contact</Link>
-          </li>
+          </li> */}
 
         </ul>
       </nav>
