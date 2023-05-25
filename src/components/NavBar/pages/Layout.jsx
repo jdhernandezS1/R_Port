@@ -7,16 +7,16 @@ const Layout = () => {
       <nav className="NavigationBar">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/R_Port">Home</Link>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
+            <Link to="/R_Port/resume">Resume</Link>
           </li>
           <li>
-            <Link to="/portafolio">Projects</Link>
+            <Link to="/R_Port/portafolio">Projects</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/R_Port/contact">Contact</Link>
           </li>
 
         </ul>
