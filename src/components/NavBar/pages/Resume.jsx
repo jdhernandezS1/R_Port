@@ -8,8 +8,7 @@ const Resume = () => {
   let Icon = styles.icon;
   let col1 = styles.contentCol1;
   let col2 = styles.contentCol2;
-
-
+  let w100 = styles.w100;
   return (
     < >
 
@@ -48,7 +47,7 @@ const Resume = () => {
               Studies
             </h1>
           </div>
-          <div data-dates="03/2022 - 03/2023">
+          <div className={w100} data-dates="03/2022 - 03/2023">
             <h3>Code institute</h3>
             <p>Full Stack Software Developer </p>
             <a
@@ -58,9 +57,10 @@ const Resume = () => {
             <h3>City Language School</h3>
             <p> English course </p>
           </div>
-          <div data-dates="2020">
+          <div className={w100} data-dates="2020">
             <h3>Coursera</h3>
-            <p> Programming Foundations with JavaScript, HTML and CSS</p>
+            <p className={w100}> Programming Foundations with JavaScript,
+              HTML and CSS</p>
             <a href="https://coursera.org/share/387155c21018c6e0a257a1e1b3e66b4f" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
           <div data-dates="2020">
@@ -71,7 +71,8 @@ const Resume = () => {
           </div>
 
           <div data-dates="02/2015- 08/2020">
-            <h3>Universidad Del Quindio (High Quality certification)</h3>
+            <h3>Universidad Del Quindio </h3>
+            <h3>(High Quality certification)</h3>
             <p>Electronic Engineer</p>
             <a href="https://wallet.xertify.co/certificates/FFF45B0AA001" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
@@ -83,12 +84,12 @@ const Resume = () => {
             <h3>Los angeles</h3>
             <p>School</p>
           </div>
-        <hr />
-        <div >
-          <h1 >
-            Work storie
-          </h1>
-        </div>
+          <hr />
+          <div >
+            <h1 >
+              Work storie
+            </h1>
+          </div>
           <div data-dates="07/2022 - 10/2022">
             <h3>Charme Hotel Torchio</h3>
             <p>House Keeper </p>

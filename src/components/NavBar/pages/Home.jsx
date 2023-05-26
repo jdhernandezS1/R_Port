@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       <div className={Content}>
 
-      <div className={col1}>
+        <div className={col1}>
           <h1>Software Skills</h1>
           <ul>
             <li>
@@ -129,7 +129,9 @@ const Home = () => {
               <h3>
                 How do I do it?
               </h3>
-              I begin planning and following a schematic as function. I know that the philosophies of effective design combined with application rate, security and reliability combining to reach a great user experience and performance.
+              <p>
+                I begin planning and following a schematic as function. I know that the philosophies of effective design combined with application rate, security and reliability combining to reach a great user experience and performance.
+              </p>
             </li>
           </ul>
 

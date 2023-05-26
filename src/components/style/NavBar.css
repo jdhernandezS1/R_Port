@@ -1,10 +1,14 @@
 .NavigationBar ul {
+    width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0px 0;
     overflow: hidden;
     background-color: #272727;
     text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 3;
 }
 
 .NavigationBar li {
@@ -13,12 +17,25 @@
 
 li a {
     display: block;
-    color: white;
+    color: #fff3e6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    /* background-color: #111; */
+    opacity: 0.3;
 }
+.active {
+    font-weight: bold;
+    color: #65ff98;
+    /* opacity: 0.7; */
+    font-size: large;
+    border-width: 3px;
+    
+    border-style: none none outset none;
+    border-color: #65ff98;
+
+  }
+  

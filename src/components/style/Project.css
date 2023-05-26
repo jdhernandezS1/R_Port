@@ -1,16 +1,20 @@
 .MainTitle {
   text-align: center;
   padding: 20px;
-  margin-bottom: 100px;
+  margin: 40px 0 100px 0;
   animation: colorAnimation 5s linear infinite;
 
 }
-
+.project-description{
+  text-align: justify;
+}
 .Portafolio {
   background-color: #272727;
   color: #ffeecead;
 }
-
+p{
+  text-align: justify;
+}
 .ProfPicContainer {
   text-align: center;
   position: absolute;
@@ -102,6 +106,7 @@
 }
 .FooterLabel{
   color: wheat;
+  text-align: center;
 }
 .social-media{
   font-size: x-large;
@@ -126,7 +131,8 @@
   }
 
   .MainTitle {
-    margin: 10px;
+    margin: 40px 0 0px 0;
+
   }
 }
 @media (max-width: 790px) {

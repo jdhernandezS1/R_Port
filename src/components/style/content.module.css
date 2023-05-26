@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     color: wheat;
+    width: 100%;
 }
 
 .content a {
@@ -14,15 +15,27 @@
 
 }
 
+.w100{
+    width: 100%;
+}
+
 .contentCol2 {
     width: 600px;
     text-align: justify;
 
 }
-
+.contentCol2 ul{
+padding: 0px;
+}
+.contentCol2 h3,
+.contentCol2 h2,
+.contentCol2 p{
+    padding: 10px;
+    }
 .list {
-    font-size: x-large;
+    font-size: large;
     list-style-type: none;
+    padding: 0;
 }
 
 .icon {
@@ -37,16 +50,18 @@
         margin: auto auto;
         align-items: center;
         color: wheat;
+        margin: 0px;
+        padding: 0px;
     }
 
     .contentCol1 {
-        width: 500px;
+        width: fit-content;
         margin: 0 auto;
         text-align: justify;
     }
 
     .contentCol2 {
-        width: 500px;
+        width: fit-content;
         text-align: justify;
         margin: 0 auto;
 

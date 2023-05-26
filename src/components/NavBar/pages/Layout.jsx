@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import "../../style/NavBar.css"
 
 const Layout = () => {
@@ -7,18 +7,17 @@ const Layout = () => {
       <nav className="NavigationBar">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
+            <NavLink to="/resume">Resume</NavLink>
           </li>
           <li>
-            <Link to="/portfolio">Projects</Link>
+            <NavLink to="/portfolio">Projects</NavLink>
           </li>
           {/* <li>
-            <Link to="/R_Port/contact">Contact</Link>
+            <NavLink to="/R_Port/contact">Contact</NavLink>
           </li> */}
-
         </ul>
       </nav>
 
