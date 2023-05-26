@@ -10,11 +10,11 @@ const NavBar = () =>{
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="R_Port/index.html/" element={<Layout />}>
+        <Route path="R_Port/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="resume" element={<Resume />} />
-          <Route path="portafolio" element={<Portafolio />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="#/resume" element={<Resume />} />
+          <Route path="#/portafolio" element={<Portafolio />} />
+          <Route path="#/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
