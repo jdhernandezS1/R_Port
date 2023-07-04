@@ -40,10 +40,11 @@ const Home = () => {
             </li>
             <li>
 
-              <h3>Databases </h3>
+              <h3>Databases and Platforms</h3>
+              <img src="https://img.shields.io/badge/PgAdmin-white?style=for-the-badge&logo=postgresql&logoColor=white&color=blue" alt="PgAdmin" />
               <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgresql" />
-              AWS
-              <img src="https://shields.io/badge/MySQL-lightgrey?logo=mysql&style=plastic&logoColor=white&labelColor=blue" alt="MySQL" />
+              <img src="https://img.shields.io/badge/AWS-white?style=for-the-badge&logo=amazon&logoColor=orange" alt="Amazon services" />
+              <img src="https://img.shields.io/badge/My-SQL-orange?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
             </li>
             <li>
 
@@ -51,6 +52,8 @@ const Home = () => {
                 Deployment Platforms
               </h3>
               <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
+              <img src="https://img.shields.io/badge/Vercel-fff?style=for-the-badge&logo=vercel&logoColor=black" alt="Heroku" />
+
             </li>
             <li>
               <h3>
@@ -66,6 +69,16 @@ const Home = () => {
               </h3>
               <img src="https://img.shields.io/badge/Git%20-%23302F2F.svg?&style=for-the-badge&logo=Git&logoColor=F05032" alt="Git" />
               <img src="https://img.shields.io/badge/GitHub%20-%23181717.svg?&style=for-the-badge&logo=GitHub&logoColor=FFFFFF" alt="GitHub" />
+            </li>
+            <li>
+
+              <h3>
+                BackEnd Api Test
+
+              </h3>
+              <img src="https://img.shields.io/badge/Postman-black?style=for-the-badge&logo=postman&logoColor=orange" alt="Postman" />
+
+
             </li>
             <li>
               <h3>
