@@ -48,40 +48,40 @@ const Resume = () => {
             </h1>
           </div>
           <div className={w100} data-dates="03/2022 - 03/2023">
-            <h3>Code institute</h3>
+            <h3>Code institute  ( 03/2022 - 03/2023 )</h3>
             <p>Full Stack Software Developer </p>
             <a
               href="https://www.credential.net/7baa32c1-921d-4399-8881-dec2a782d485#gs.v65mt7" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
           <div data-dates="08/2021 - 02/2022">
-            <h3>City Language School</h3>
+            <h3>City Language School ( 08/2021 - 02/2022 )</h3>
             <p> English course </p>
           </div>
           <div className={w100} data-dates="2020">
-            <h3>Coursera</h3>
+            <h3>Coursera ( 2020 )</h3>
             <p className={w100}> Programming Foundations with JavaScript,
               HTML and CSS</p>
             <a href="https://coursera.org/share/387155c21018c6e0a257a1e1b3e66b4f" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
           <div data-dates="2020">
-            <h3>Coursera</h3>
+            <h3>Coursera ( 2020 )</h3>
             <p> Introduction to self-driving cars</p>
             <a
               href="https://www.coursera.org/account/accomplishments/certificate/A6RQTWZJGP3S" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
 
           <div data-dates="02/2015- 08/2020">
-            <h3>Universidad Del Quindio </h3>
+            <h3>Universidad Del Quindio ( 02/2015- 08/2020 ) </h3>
             <h3>(High Quality certification)</h3>
             <p>Electronic Engineer</p>
             <a href="https://wallet.xertify.co/certificates/FFF45B0AA001" target="_blank" rel="noopener noreferrer">Credential</a>
           </div>
           <div data-dates="2007 - 2012">
-            <h3>Zakurayima</h3>
+            <h3>Zakurayima ( 2007 - 2012 )</h3>
             <p>High School</p>
           </div>
           <div data-dates="2000 - 2006">
-            <h3>Los angeles</h3>
+            <h3>Los angeles (2000 - 2006 )</h3>
             <p>School</p>
           </div>
           <hr />
@@ -90,18 +90,33 @@ const Resume = () => {
               Work storie
             </h1>
           </div>
-          <div data-dates="07/2022 - 10/2022">
-            <h3>Charme Hotel Torchio</h3>
-            <p>House Keeper </p>
-          </div>
-          <div data-dates="08/2021 - 02/2022">
-            <h3>Barnacles Hostel Dublin</h3>
-            <p> Porter Linnen</p>
-          </div>
-          <div data-dates="02/2016- 06/2019">
-            <h3>Universidad Del Quindio </h3>
-            <p>Logistic and Recreation</p>
-          </div>
+          <ul>
+
+            <div data-dates="07/2023 - actually">
+              <li>
+                <h3>Locaverse ( 06/2023 - actually )</h3>
+                <p>BackEnd Developer </p>
+              </li>
+            </div>
+            <div data-dates="07/2022 - 10/2022">
+              <li>
+                <h3>Charme Hotel Torchio ( 07/2022 - 10/2022 )</h3>
+              </li>
+              <p>House Keeper </p>
+            </div>
+            <div data-dates="08/2021 - 02/2022">
+              <li>
+                <h3>Barnacles Hostel Dublin ( 08/2021 - 02/2022 )</h3>
+              </li>
+              <p> Porter Linnen</p>
+            </div>
+            <div data-dates="02/2016- 06/2019">
+              <li>
+                <h3>Universidad Del Quindio ( 02/2016- 06/2019 )</h3>
+              </li>
+              <p>Logistic and Recreation</p>
+            </div>
+          </ul>
 
         </div>
       </div>

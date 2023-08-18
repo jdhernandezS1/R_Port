@@ -61,6 +61,8 @@ const Home = () => {
               </h3>
               <img src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white" alt="Stripe" />
               <img src="https://img.shields.io/badge/Gspread-626CD9?style=for-the-badge&logo=Google&logoColor=white" alt="Gspread" />
+              <img src="https://img.shields.io/badge/openai-black?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+              
             </li>
 
             <li>

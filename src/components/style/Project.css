@@ -64,8 +64,8 @@ p{
 
 .project-image {
   width: 100%;
-  height: auto;
-  border-radius: 4px
+  height: 300px;
+  border-radius: 10%
 }
 
 .project-links a {
