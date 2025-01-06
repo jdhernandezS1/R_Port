@@ -56,7 +56,7 @@ const projects = [
             'CSS 3.7% ',
             'Dockerfile 2.2% ',
             'JavaScript 2.0% '],
-        demoLink: 'https://capricci.herokuapp.com/',
+        demoLink: 'https://ci-pp5-e-com.onrender.com/',
         sourceLink: 'https://github.com/jdhernandezS1/CI_PP5_E_COM',
     },
     {
@@ -83,37 +83,37 @@ const projects = [
             'Dockerfile 3.5%  ',
             'CSS 3.0%  ',
             'Other 0.2%  '],
-        demoLink: 'https://djangoapp4.herokuapp.com/',
+        demoLink: 'https://ci-pp4-djangopy.onrender.com',
         sourceLink: 'https://github.com/jdhernandezS1/CI_PP4_DjangoPY',
     },
-    {
-        title: 'Library',
-        description: "Integrated gspread API with Google Sheets for database functionality.\n\
-        Transformed Google Sheets into an accessible database for non-technical users.\n\
-        Python-based web application acted as the backbone for the system.\n\
-        Offered an intuitive console for authorized administrators to manage book rentals and returns.\n\
-        Skills Demonstrated:\n\
-        Proficiency in integrating APIs for data management.\n\
-        Strong Python programming skills.\n\
-        User-centric design principles applied.\n\
-        Attention to detail in creating practical solutions.",
+    // {
+    //     title: 'Library',
+    //     description: "Integrated gspread API with Google Sheets for database functionality.\n\
+    //     Transformed Google Sheets into an accessible database for non-technical users.\n\
+    //     Python-based web application acted as the backbone for the system.\n\
+    //     Offered an intuitive console for authorized administrators to manage book rentals and returns.\n\
+    //     Skills Demonstrated:\n\
+    //     Proficiency in integrating APIs for data management.\n\
+    //     Strong Python programming skills.\n\
+    //     User-centric design principles applied.\n\
+    //     Attention to detail in creating practical solutions.",
         
-        // "This project demonstrated my expertise as a skilled developer by creating a robust library management system. \
-        // By integrating the gspread API with Google Sheets, I transformed it into an accessible database for non-technical administrators.\
-        //  The Python-based web application served as the backbone, offering an intuitive console for authorized admins to handle book rentals and returns.\
-        //   The project showcased my meticulous attention to detail, user-centric design, and ability to deliver practical solutions that meet \
-        //   technical requirements and user expectations.",
-        imageUrl: 'https://github.com/jdhernandezS1/CI_PP3_LIBRARY/blob/main/assets/images/responsiveweb.png?raw=true',
-        technologies: [
-            'Python 55.0 % ',
-            'HTML 25.4 % ',
-            'Dockerfile 10.4 % ',
-            'JavaScript 9.1 % ',
-            'Procfile 0.1 % '
-        ],
-        demoLink: 'https://ci-pp3-lib.herokuapp.com/',
-        sourceLink: 'https://github.com/jdhernandezS1/CI_PP3_LIBRARY',
-    },
+    //     // "This project demonstrated my expertise as a skilled developer by creating a robust library management system. \
+    //     // By integrating the gspread API with Google Sheets, I transformed it into an accessible database for non-technical administrators.\
+    //     //  The Python-based web application served as the backbone, offering an intuitive console for authorized admins to handle book rentals and returns.\
+    //     //   The project showcased my meticulous attention to detail, user-centric design, and ability to deliver practical solutions that meet \
+    //     //   technical requirements and user expectations.",
+    //     imageUrl: 'https://github.com/jdhernandezS1/CI_PP3_LIBRARY/blob/main/assets/images/responsiveweb.png?raw=true',
+    //     technologies: [
+    //         'Python 55.0 % ',
+    //         'HTML 25.4 % ',
+    //         'Dockerfile 10.4 % ',
+    //         'JavaScript 9.1 % ',
+    //         'Procfile 0.1 % '
+    //     ],
+    //     demoLink: 'https://ci-pp3-lib.herokuapp.com/',
+    //     sourceLink: 'https://github.com/jdhernandezS1/CI_PP3_LIBRARY',
+    // },
     {
         title: 'Crazy cars',
         description: "Demonstrates proficiency in web development. \n\
@@ -142,33 +142,33 @@ const projects = [
         demoLink: 'https://jdhernandezs1.github.io/CI_PP2_CG/',
         sourceLink: 'https://github.com/jdhernandezS1/CI_PP2_CG',
     },
-    {
-        title: 'Veg Restaurant',
-        description: "Approach:\
-        Utilized web development expertise to create an engaging platform.\
-        Emphasized vegetable consumption for balanced nutrition.\n\
-        Strategy:\
-        Crafted compelling content and resources to educate visitors.\
-        Encouraged informed dietary choices for personal well-being.\n\
-        Result:\
-        Created an educational web space that empowers users to make conscious food decisions.\
-        Showcases ability to combine technical skills with impactful content for web experiences",
-        // "The web page I developed aims to emulate a vegetarian restaurant while raising awareness about\
-        //  the environmental and personal benefits of reducing animal agriculture. By encouraging individuals to consume\
-        //   less meat or adopt a meat-free diet, the platform promotes a balanced approach to nutrition by emphasizing the\
-        //    consumption of vegetables. The primary goal is to share information about the advantages of a plant-based diet,\
-        //     both for the environment and personal well-being. Through engaging content and resources, the website inspires \
-        //     visitors to make conscious dietary choices and highlights the positive impact of incorporating more vegetables into their meals.\
-        //      This project serves as an educational platform, fostering awareness and empowering individuals to make informed decisions \
-        //      that contribute to a healthier planet and a healthier self",
-        imageUrl: 'https://github.com/jdhernandezS1/CI_PP1_HB/blob/main/assets/images/responsiveweb.jpeg?raw=true',
-        technologies: [
-            'HTML 83.6% ',
-            'CSS 16.4% '
-        ],
-        demoLink: 'https://jdhernandezs1.github.io/CI_PP1_HB/index.html',
-        sourceLink: 'https://github.com/jdhernandezS1/CI_PP1_HB',
-    },
+    // {
+    //     title: 'Veg Restaurant',
+    //     description: "Approach:\
+    //     Utilized web development expertise to create an engaging platform.\
+    //     Emphasized vegetable consumption for balanced nutrition.\n\
+    //     Strategy:\
+    //     Crafted compelling content and resources to educate visitors.\
+    //     Encouraged informed dietary choices for personal well-being.\n\
+    //     Result:\
+    //     Created an educational web space that empowers users to make conscious food decisions.\
+    //     Showcases ability to combine technical skills with impactful content for web experiences",
+    //     // "The web page I developed aims to emulate a vegetarian restaurant while raising awareness about\
+    //     //  the environmental and personal benefits of reducing animal agriculture. By encouraging individuals to consume\
+    //     //   less meat or adopt a meat-free diet, the platform promotes a balanced approach to nutrition by emphasizing the\
+    //     //    consumption of vegetables. The primary goal is to share information about the advantages of a plant-based diet,\
+    //     //     both for the environment and personal well-being. Through engaging content and resources, the website inspires \
+    //     //     visitors to make conscious dietary choices and highlights the positive impact of incorporating more vegetables into their meals.\
+    //     //      This project serves as an educational platform, fostering awareness and empowering individuals to make informed decisions \
+    //     //      that contribute to a healthier planet and a healthier self",
+    //     imageUrl: 'https://github.com/jdhernandezS1/CI_PP1_HB/blob/main/assets/images/responsiveweb.jpeg?raw=true',
+    //     technologies: [
+    //         'HTML 83.6% ',
+    //         'CSS 16.4% '
+    //     ],
+    //     demoLink: 'https://jdhernandezs1.github.io/CI_PP1_HB/index.html',
+    //     sourceLink: 'https://github.com/jdhernandezS1/CI_PP1_HB',
+    // },
 ];
 
 export default projects;
